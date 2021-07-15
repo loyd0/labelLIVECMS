@@ -22,7 +22,10 @@
                 var l = document.querySelector('a.sidebar__logo')
                 l.remove()
                 var x = document.querySelector('.sidebar__item')
-
+                var backBtn = document.querySelector('.sidebar__back')
+                backBtn.remove()
+                var label = document.querySelector('.sidebar__label')
+                label.remove()
                 var a = document.createElement('A')
                 a.innerHTML = '<img class="sideLogo" src="https://a.storyblok.com/f/111664/x/af14d1ce4e/labellivelogowhite.svg" /> <span class="sideBarTitle"> Label LIVE</span>'
                 x.appendChild(a)
