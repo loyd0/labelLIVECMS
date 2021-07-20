@@ -17,10 +17,11 @@
 
     <script>
         window.addEventListener("load", function (event) {
-
+            console.log(window.location)
             setTimeout(() => {
 
                 if (window.location.hash === '#!/me/spaces') {
+                    console.log(window.location.hash)
                     window.location.replace('#!/me/spaces/111664/dashboard')
                 }
                 var l = document.querySelector('a.sidebar__logo')
@@ -37,7 +38,7 @@
                 a.setAttribute('href', '#!me/spaces/111664/stories/0/0/45684097')
                 a.setAttribute('class', 'sideBarA')
 
-            }, 200)
+            }, 400)
 
 
         });
